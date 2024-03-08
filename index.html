@@ -4,30 +4,176 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Personal website for Rick Hoogenboom, welcome!">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="./styles.css">
         <script src="https://kit.fontawesome.com/f4a5920f6a.js" crossorigin="anonymous"></script>
         <title>Rick Hoogenboom</title>
     </head>
     <body>
         <nav id="navbar">
-            <ul>
-                <li><a href="#about" class="link">About Me</a></li>
-                <li><a href="#work" class="link">My Work</a></li>
-                <li><a href="https://www.linkedin.com/in/rick-hoogenboom" class="hr-icon"><i class="fa-brands fa-linkedin icon"></i></a></li>
-            </ul>
+        <div class="hamburger">
+            <a href="#menu" class="menu-button"></a>
+        </div>
+        <div id="menu" class="menu-overlay">
+            <div class="menu-popup text-center">
+                <a class="close" href="#hamburger">&times;</a>
+                <div class="content">     
+                     <ul>
+                        <li><a href="#experience" class="link">Experience</a></li>
+                        <li><a href="#education" class="link">Education</a></li>
+                        <div class="extern-links">
+                        <li><a href="https://www.linkedin.com/in/rick-hoogenboom" class="hr-icon" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a></li>
+                        <li><a href="https://www.github.com/rickh96" class="hr-icon" target="_blank"><i class="fa-brands fa-github icon"></i></a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            </div>  
+        
         </nav>
 
         <section id="welcome-section">
-            <h1 class="text-center">Your name here</h1>
-            <h2 class="text-center">Aspiring software engineer...</h2>
+            <h1 class="text-center">Rick Hoogenboom</h1>
+            <h2 class="text-center">Elecrical engineer turned aspiring software engineer</h2>
         </section>
+        
+        
+    <section class="about">
+        <h2 class="text-left section-header">About Me</h2>
+            <div class="about-me">
+                <p>Hi There! My name is Rick Hoogenboom. Experienced in embedded electrical design,
+                    I am searching for a new challenge in the world of software.
+                
+                </p>
+            </div>
 
-        <section id="about">
-            <h2 class="text-left experience">Experience</h2>
-        </br>
-        </br>
-        </br>
-            
-        </section>
+
+        <h2 class="text-left section-header">Experience</h2>
+        
+        <section id="experience">
+        <div class="experience-blurb">
+            <div class="image-space">
+                <img src="https://rickh96.github.io/images/l3harris_logo.png" class="experience-images">
+            </div>
+            <div class="job-experience ">
+                    <h2 class="text-left job-title">Test Engineering Designer &mdash; Hardware</h2>
+                    <h2 class="no-bold italic bottom-padding">L3Harris Wescam</h2>
+                    <h3 class="text-left no-bold date-and-location bottom-padding">JAN 2020 - NOV 2023 &mdash; <span class="italic">Waterdown, Ontario, Canada</span></h3>
+                    <ul>
+                        <li class="role-text">
+                            Designed and developed electrical equipment tailored for factory use, specializing in circuit card assemblies (CCAs) and cables, to promote operational efficiency
+                        </li>
+                        <li class="role-text">
+                            Utilized CAD software (e.g., Cadence OrCAD & Allegro) to create detailed schematics, layouts, and diagrams for circuit card assemblies
+                        </li>
+                        <li class="role-text">
+                            Spearheaded a cross-functional initiative, including requirements gathering and design, that consolidated six separate test fixtures into a single, versatile fixture, saving US$320k in one-time costs and US$15k in yearly maintenance and downtime costs
+                        </li>
+                        <li class="role-text">
+                            Designed the electronics (circuit cards and cables) within a battery-operated, portable vacuum production tool used for lens alignment, which eliminated epoxy curing wait times, improving throughput by 300% and increasing revenue by US$700k annually 
+                        </li>
+                        <li class="role-text">
+                            Implemented many new technologies for the department and the company, including lithium-ion batteries and power over Ethernet (POE)
+                        </li>
+                        <li class="role-text">
+                            Managed the procurement of components and finding alternate parts during a worldwide electronic parts shortage to meet project timelines
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <div class="experience-blurb">
+            <div class="image-space">
+                <img src="https://rickh96.github.io/images/l3harris_logo.png" class="experience-images">
+            </div>
+            <div class="job-experience ">
+                    <h2 class="text-left">Test Engineering Intern</h2>
+                    <h2 class="no-bold italic bottom-padding">L3Harris Wescam</h2>
+                    <h3 class="text-left no-bold date-and-location bottom-padding">JAN 2017 - AUG 2018 &mdash; <span class="italic">Waterdown, Ontario, Canada</span></h3>
+                    <ul>
+                        <li class="role-text">
+                            Collaborated with team to ensure on-time project deliverables, including releases and design changes within the Product Lifecycle Management (PLM) system
+                        </li>
+                        <li class="role-text">
+                            Repaired test fixtures in a timely manner to minimize downtime and root-cause issues to ensure future reliability
+
+                        </li>
+                        <li class="role-text">
+                            Designed cables, circuit card assemblies and test fixtures in line with requirements from the Manufacturing Engineering team to improve manufacturing efficiency                        
+                        </li>
+                    </ul>
+        </div>
+    </div>
+</section>
+<h2 class="text-left section-header">Education / Certifications</h2>
+<section id="education">
+        <div class="education-blurb">
+            <div class="image-space">
+                <img src="https://rickh96.github.io/images/McMaster_University_logo.png" class="experience-images">
+            </div>
+            <div class="education-experience">
+                <h2 class="text-left">McMaster University</h2>
+                <h2 class="no-bold italic bottom-padding">Hamilton, Ontario, Canada</h2>
+                <h3 class="no-bold bottom-padding">Process Automation Engineering Technology</h3> 
+                <h3 class="no-bold bottom-padding"> Completed Dec 2019</h3>
+            </div>
+        </div>
+        <div class="education-blurb">
+            <div class="image-space">
+                <img src="https://rickh96.github.io/images/fcc_logo.jpg" class="experience-images fcc">
+            </div>
+            <div class="education-experience">
+                <h2 class="text-left">FreeCodeCamp.org</h2>
+                <h3 class="no-bold italic bottom-padding">Responsive Web Design Certification</h3>
+                <p>This course is an introduction to web design, utilizing both HTML and CSS.</p>
+                <p>It is a project based course, where students are lead through various projects to
+                    learn while building basic websites. There are 5 certification projects to ensure
+                    students are able to grasp the concepts taught.</p>
+            </div>
+        </div>
+</section>
+</section>
+
+<section class="footer">
+    
+    <div class="box">
+        <a class="button" href="#popup1">Send me a message</a>
+    </div>
+    <div class="links">
+    <div id="popup1" class="overlay">
+        <div class="popup text-center">
+            <h2>Send me an email</h2>
+            <a class="close" href="#footer">&times;</a>
+            <div class="content">
+                <div class="form">
+                <form action="mailto:rickhoogenboom1@gmail.com" 
+                method="post"
+                enctype="text/plain"
+                name="emailForm">
+                <div class="input-wrapper">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-wrapper">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-wrapper">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" cols="16"></textarea>
+            </div>
+                <input type="submit" value="Send">
+                <p>Please note, pressing send opens your email client.</p>
+            </form>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="extern-links">
+        <li><a href="https://www.linkedin.com/in/rick-hoogenboom" class="hr-icon" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a></li>
+        <li><a href="https://www.github.com/rickh96" class="hr-icon" target="_blank"><i class="fa-brands fa-github icon"></i></a></li>
+        </div>
+    </div>
+    <h3 class="text-center">Rick Hoogenboom &#169;2024</h3>
+</section>
     </body>
 </html>
