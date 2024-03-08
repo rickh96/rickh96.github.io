@@ -116,7 +116,6 @@ h2{
     position:relative;
     bottom: 7px;
     z-index:1;
-    border: 1px solid white;
 }
 
 .menu-popup {
@@ -376,7 +375,7 @@ h2{
   .popup .close {
     position: absolute;
     top: 0px;
-    right: 10px;
+    right: -75px;
     transition: all 200ms;
     font-size: 30px;
     font-weight: bold;
